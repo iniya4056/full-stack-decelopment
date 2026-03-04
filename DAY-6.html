@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box1 {
+  width: 100px;
+  height: 80px;
+  background-color: pink;
+  margin: 5px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  width: 120px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 10px;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 10px;
+}
+.container4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+}
+.container5 {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.box5 { 
+    width: 100px; 
+    height: 50px; 
+    background: red; 
+}
+.box6 { 
+    width: 100px; 
+    height: 120px; 
+    background: blue; 
+}
+.box7 {
+     width: 100px; 
+     height: 80px; 
+     background: green; 
+    }
+button {
+  visibility: hidden;
+}
+span {
+  display: block;
+  background-color: lightgray;
+  margin: 10px;
+  font-size: 50px;
+}
+</style>
+</head>
+<body>
+
+    <h1>flex direction for row</h1>
+
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+
+    <h1>flex direction for column</h1>
+
+<div class="container1">
+  <div class="box1"></div>
+  <div class="box1"></div>
+  <div class="box1"></div>
+  <div class="box1"></div>
+</div>
+
+
+   <h1>flex wrap</h1>
+
+<div class="container2">
+  <div class="box2"></div>
+  <div class="box2"></div>
+  <div class="box2"></div>
+  <div class="box2"></div>
+  <div class="box2"></div>
+  <div class="box2"></div>
+</div>
+
+    <h1>horizontal box</h1>
+
+<div class="container3">
+  <div class="box3"></div>
+  <div class="box3"></div>
+  <div class="box3"></div>
+</div>
+
+    <h1>space between</h1>
+
+<div class="container4">
+  <div class="box4"></div>
+  <div class="box4"></div>
+  <div class="box4"></div>
+</div>
+
+     <h1>different heights aligned vertically center</h1>
+
+<div class="container5">
+  <div class="box5"></div>
+  <div class="box6"></div>
+  <div class="box7"></div>
+</div>
+
+      <h1>Button using visibility hidden</h1>
+
+<button>Click Me</button>
+<p style="font-size: 20px;">register now.</p>
+
+      <h1>inline style</h1>
+
+      <div style="width:200px; height:100px; background-color: yellow; font-size: 40px; text-align:center; padding: 20px;">
+          have a great day..
+     </div>
+
+       <h1>span</h1>
+
+<span>iniyarasi</span>
+<span>mooorthy</span>
+
+</body>
+</html>
